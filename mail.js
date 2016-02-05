@@ -3,12 +3,14 @@ var nodemailer = require('nodemailer');
 var mail = {};
 mail.send = function(name, email, phone, message) {
 	var from = name + "<" + email + ">";
-	var html = '<p>phone - ' + phone + '</p> <p>' + message + '</p>';
-	console.log(from);
+	var html = '<p> name - ' + name + '</p>';
+	html += '<p>email - ' + email + '</p>';
+	html += '<p>phone - ' + phone + '</p>';
+	html += '<p>' + message + '</p>';
 
 	var mailOptions = {
 	    from: from,
-	    to: 'lucius.yu@outlook.com',
+	    to: 'lucius.yu@outlook.com, bpowdercoatings@gmail.com',
 	    subject: 'New Inquiry from Bypoweder Website',
 	    html: html
 	};
