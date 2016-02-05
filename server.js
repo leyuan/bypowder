@@ -25,11 +25,11 @@ app.get('/mail', function(req, res) {
 });
 
 app.post('/mail', function(req, res) {
-	console.log(req.params);
-	var name = req.params.name;
-	var email = req.params.email;
-	var phone = req.params.phone;
-	var message = req.params.message;
+	console.log(req.body);
+	var name = req.body.name;
+	var email = req.body.email;
+	var phone = req.body.phone;
+	var message = req.body.message;
 
 	mail.send(name, email, phone, message);
 	res.send("Hello Mail");
