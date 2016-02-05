@@ -38,7 +38,7 @@ app.post('/mail', function(req, res) {
 	var message = req.body.message;
 
 	mail.send(name, email, phone, message);
-	res.send("Hello Mail");
+	res.send("Thanks for contacting us. We will contact you ASAP!");
 });
 
 app.get('/', function (req, res) {
