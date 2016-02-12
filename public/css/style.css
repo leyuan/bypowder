@@ -1988,11 +1988,11 @@ width: 44px;
   border-bottom:none;
 }
 .right-content-contact-box {
-  background: #3b3946 none repeat scroll 0 0;
+  /*background: #3b3946 none repeat scroll 0 0;*/
   margin-top: 75px;
-  padding-top: 30px;
+  /*padding-top: 30px;*/
   padding-bottom: 25px;
-  padding-left: 30px;
+  /*padding-left: 30px;*/
 }
 .right-content-contact-box h1 {
   color: #ffffff;
@@ -2068,14 +2068,13 @@ width: 44px;
   float: left;
   margin-right: 30px;
 }
-.practice-left-middle-text h2 {
-  color: #000000;
+.practice-left-middle-text h3 {
+  color: black;
+  font-size: 18px;
+  font-weight: 600;
   font-family: "Raleway",sans-serif;
-  font-size: 22px;
-  font-weight: 700;
-  margin-bottom: 15px;
-  margin-top: 57px;
-  text-transform: uppercase;
+  margin-top:20px;
+  margin-bottom:20px;
 }
 .practice-left-bottom-text {
   padding-top: 40px;
@@ -2086,10 +2085,11 @@ width: 44px;
 }
 .practice-bottom-right-text h3 {
   color: #000000;
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 600;
   font-family: "Raleway",sans-serif;
-  margin-bottom:20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 /*End=============================================================practice-v5.html page css===================*/
