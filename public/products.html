@@ -13,6 +13,12 @@
 		<link rel="stylesheet" href="css/style.css">
         <!-- Responsive stylesheet -->
         <link rel="stylesheet" href="css/responsive.css">
+
+        <script type="text/javascript">
+            var leftNavClick = function(newHash) {
+                location.hash = newHash;
+            };
+        </script>
         <!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
     </head>
     <body>
@@ -31,40 +37,30 @@
                 <nav class="mainmenu pull-right">
                     <div class="nav-holder">
                         <ul>
-                            <li><a href="/">Home</a></li>
-                            <li><a href="about.html">About us</a></li>
+                            <li><a href="index.html">HOME</a></li>
+                            <li><a href="about.html">ABOUT US</a></li>
                             <li class="dropdown">
-                                <a href="attorney-v1.html">Attorney</a>
+                                <a href="practice-v1.html">PRODUCTS</a>
                                 <ul class="submenu">
-                                    <li class="dropdown">
-                                        <a href="attorney-v2.html">Attorney Two</a>
-                                        <ul class="submenu">
-                                            <li><a href="attorney-v2.html">Third Level Menu</a></li>
-                                            <li><a href="single-attorney.html">Third Level Menu</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="single-attorney.html">Attorney Profile</a></li>
+                                    <li><a href="products.html#polyester">Polyester</a></li>
+                                    <li><a href="products.html#epoxies">Epoxies</a></li>
+                                    <li><a href="products.html#polyester-epoxy-hybrids">Polyester-Epoxy Hybrids</a></li>
+                                    <li><a href="products.html#polyurethane">Polyurethane</a></li>
+                                    <li><a href="products.html#art-style">Art Style</a></li>
+                                    <li><a href="products.html#high-temperature-resistance">High Temperature Resistance</a></li>
+                                    <li><a href="products.html#antimicrobial-coating">Antimicrobial</a></li>
                                 </ul>
                             </li>
                             <li class="dropdown">
-                                <a href="practice-v1.html">Practice Areas</a>
+                                <a href="blog-left-sidebar.html">COLOR</a>
                                 <ul class="submenu">
-                                    <li><a href="practice-v2.html">Practice Two</a></li>
-                                    <li><a href="practice-v3.html">Practice Three</a></li>
-                                    <li><a href="practice-v4.html">Practice Four</a></li>
-                                    <li><a href="practice-v5.html">Practice Five</a></li>
+                                    <li><a href="blog-right-sidebar.html">Color Two</a></li>
+                                    <li><a href="blog-v3.html">Color Three</a></li>
+                                    <li><a href="blog-v4.html">Color Four</a></li>
+                                    <li><a href="blog-details.html">Color Details</a></li>
                                 </ul>
                             </li>
-                            <li class="dropdown">
-                                <a href="blog-left-sidebar.html">blog</a>
-                                <ul class="submenu">
-                                    <li><a href="blog-right-sidebar.html">Blog Two</a></li>
-                                    <li><a href="blog-v3.html">Blog Three</a></li>
-                                    <li><a href="blog-v4.html">Blog Four</a></li>
-                                    <li><a href="blog-details.html">Blog Details</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="contact.html">contact us</a></li>
+                            <li><a href="contact.html">CONTACT US</a></li>
                         </ul>
                     </div>
                     <div class="nav-expander">
@@ -89,10 +85,10 @@
                     <div class="row">
                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                             <div class="breadcrumb-text text-center">
-                                <h1>Polyester</h1>
+                                <h1>Products</h1>
                                 <ul class="breadcrumbs">
                                    <li><a href="index.html">Home</a><i class="fa fa-angle-right"></i></li>
-                                   <li><a href="#">Polyester</a></li>
+                                   <li><a href="#">Products</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -112,37 +108,37 @@
                                 <ul class="practice-law-box" role="tablist">
                                 	<!--Start single law box-->
                                     <li class="single-law-box active" data-tab-name="Criminal">
-                                        <a href="#Criminal" aria-controls="Criminal" role="tab" data-toggle="tab">Polyester<i class="fa fa-angle-right"></i></a>
+                                        <a href="#Criminal" aria-controls="Criminal" role="tab" data-toggle="tab" class="polyester" onclick="leftNavClick('polyester')">Polyester<i class="fa fa-angle-right"></i></a>
                                     </li>
                                     <!--End single law box-->
                                     <!--Start single law box-->
                                     <li class="single-law-box" data-tab-name="Accident">
-                                        <a href="#Accident" aria-controls="Accident" role="tab" data-toggle="tab">Epoxies<i class="fa fa-angle-right"></i></a>
+                                        <a href="#Accident" aria-controls="Accident" role="tab" data-toggle="tab" class="epoxies" onclick="leftNavClick('epoxies')">Epoxies<i class="fa fa-angle-right"></i></a>
                                     </li>
                                     <!--End single law box-->
                                     <!--Start single law box-->
                                     <li class="single-law-box" data-tab-name="Property">
-                                        <a href="#Property" aria-controls="Property" role="tab" data-toggle="tab">Polyester-Epoxy Hybrids<i class="fa fa-angle-right"></i></a>
+                                        <a href="#Property" aria-controls="Property" role="tab" data-toggle="tab" class="polyester-epoxy-hybrids" onclick="leftNavClick('polyester-epoxy-hybrids')">Polyester-Epoxy Hybrids<i class="fa fa-angle-right"></i></a>
                                     </li>
                                     <!--End single law box-->
                                     <!--Start single law box-->
                                     <li class="single-law-box" data-tab-name="employment">
-                                        <a href="#employment" aria-controls="employment" role="tab" data-toggle="tab">Polyurethane<i class="fa fa-angle-right"></i></a>
+                                        <a href="#employment" aria-controls="employment" role="tab" data-toggle="tab" class="polyurethane" onclick="leftNavClick('polyurethane')">Polyurethane<i class="fa fa-angle-right"></i></a>
                                     </li>
                                     <!--End single law box-->
                                     <!--Start single law box-->
                                     <li class="single-law-box" data-tab-name="family">
-                                        <a href="#family" aria-controls="family" role="tab" data-toggle="tab">Art Style<i class="fa fa-angle-right"></i></a>
+                                        <a href="#family" aria-controls="family" role="tab" data-toggle="tab" class="art-style" onclick="leftNavClick('art-style')">Art Style<i class="fa fa-angle-right"></i></a>
                                     </li>
                                     <!--End single law box-->
                                     <!--Start single law box-->
                                     <li class="single-law-box" data-tab-name="business">
-                                        <a href="#business" aria-controls="business" role="tab" data-toggle="tab">High Temperature Resistance<i class="fa fa-angle-right"></i></a>
+                                        <a href="#business" aria-controls="business" role="tab" data-toggle="tab" class="high-temperature-resistance" onclick="leftNavClick('high-temperature-resistance')">High Temperature Resistance<i class="fa fa-angle-right"></i></a>
                                     </li>
                                     <!--End single law box-->
                                     <!--Start single law box-->
                                     <li class="single-law-box" data-tab-name="divorce">
-                                        <a href="#divorce" aria-controls="divorce" role="tab" data-toggle="tab">Antimicrobial Coating<i class="fa fa-angle-right"></i></a>
+                                        <a href="#divorce" aria-controls="divorce" role="tab" data-toggle="tab" class="antimicrobial" onclick="leftNavClick('antimicrobial')">Antimicrobial Coating<i class="fa fa-angle-right"></i></a>
                                     </li>
                                     <!--End single law box-->
                                 </ul>
@@ -186,22 +182,23 @@
                                 <div class="fix practice-bottom-right-text">
                                     <h3>Physical Properties</h3>
                                     <p>
-                                        Specific gravity: 1.4 – 1.7 g/cm3 <br>
+                                        Specific gravity: 1.4 – 1.7 g/cm&sup3 <br>
                                         Grain fineness distribution: 100% smaller than 100um (can be adjusted accordingly)
+                                    </p>
                                     </p>
                                     <h3>Curing Condition</h3>
                                     <p>
-                                        Standard: 190oC (work piece temperature), 15min
+                                        Standard: 190&degC (work piece temperature), 15min
                                     </p>
-                                    <h3>Physical Properties</h3>
+                                    <h3>Average Coverage</h3>
                                     <p>
-                                        8-11 m2/kg @ film thickness 70um (2.76mil) <br>
+                                        8-11 m&sup2/kg @ film thickness 70um (2.76mil) <br>
                                         Note: Number is calculated under 100% usage rate. 
-
                                     </p>
                                 </div>
                             </div>
                             <div class="fix right-content-contact-box">
+                                <h4>Test Performance</h3>
                                 <img src="img/products/polyester.png">
                             </div>
                         </div>
@@ -215,21 +212,42 @@
                                 </div>
                             </div>
                             <div class=" practice-left-middle-text">
-                                <h2>Accident Law</h2>
-                                <p> Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.<br/><br/>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur</p>
-                            </div>
-                            <div class=" practice-left-bottom-text">
-                                <div class=" practice-bottom-left-img">
-                                    <img src="img/practice-left-bottom.jpg" alt="">
+                                <div class="fix practice-left-middle-text">
+                                    <h3>General Information</h3>
+                                    <p>Epoxy series powder is made by epoxy resin and other chemical resistance material, the product has excellent chemical resistance and mechanical properties. Our Epoxy powder coating can be applied to metal products that require high chemical resistance, excellent electrical isolation and outstanding flexibility. Transportation pipes, chemical equipment, or indoor furniture are the top choices for using our Epoxy powder coatings. We do not recommend of using our Epoxy powders on outdoor products directly.</p>
+                                    <h3>Products Series</h3>
+                                    <p>We provide standard curing and low temperature curing, both type of Epoxy powder coatings.</p>
                                 </div>
-                                <div class=" practice-bottom-right-text">
-                                    <h3>Duis aute irure dolor in reprehenderit in voluptate</h3>
-                                    <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.<br/><br/>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur</p>
+                                <div class="fix practice-left-bottom-text">
+                                    <div class="fix practice-bottom-left-img">
+                                        <img src="img/practice-left-bottom.jpg" alt="">
+                                    </div>
+                                    <div class="fix practice-bottom-right-text">
+                                        <h3>Physical Properties</h3>
+                                        <p>
+                                            Specific gravity: 1.4 – 1.7 g/cm&sup3 <br>
+                                            Grain fineness distribution: 100% smaller than 100um (can be adjusted accordingly)
+                                        </p>
+                                        <h3>Curing Condition</h3>
+                                        <p>
+                                            A Type: 200&degC (work piece temperature), 10min <br>
+                                            B Type: 180&degC (work piece temperature), 15min <br>
+                                            C Type: 140&degC (work piece temperature), 20min
+
+                                        </p>
+                                        <h3>Average Coverage</h3>
+                                        <p>
+                                            9-12 m&sup2/kg @ film thickness 60um (2.36mil) <br>
+                                            Note: Number is calculated under 100% usage rate. 
+                                        </p>
+                                        <h3>Test Performance</h3>
+
+                                    </div>
                                 </div>
-                            </div>
-                            <div class=" right-content-contact-box">
-                                <h1>All people are equal before the law. A good attorney.</h1>
-                                <a href="">Contact us</a>
+                                <div class="fix right-content-contact-box">
+                                    <h4>Test Performance</h3>
+                                    <img src="img/products/epoxies.png">
+                                </div>
                             </div>
                         </div>
                         <div class="practice-left-content tab-pane fade" id="Property">
@@ -242,21 +260,38 @@
                                 </div>
                             </div>
                             <div class=" practice-left-middle-text">
-                                <h2>Property Law</h2>
-                                <p> Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.<br/><br/>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur</p>
-                            </div>
-                            <div class=" practice-left-bottom-text">
-                                <div class=" practice-bottom-left-img">
-                                    <img src="img/practice-left-bottom.jpg" alt="">
+                                <div class="fix practice-left-middle-text">
+                                    <h3>General Information</h3>
+                                    <p>Epoxy-Polyester Hybrids series powder is mainly made by combination of Epoxy and Polyester resins. This type of powder coatings provide both unique functions that carry by Epoxy and Polyester powder coatings, which makes the finishing surface more decorative. In addition, relatively strong mechanical properties and anti-corrosion properties are the other advantages for this series powder coatings. Epoxy-Polyester Hybrids powder coatings can be made in a wide varieties of colours and glosses, it can be applied to any type of indoor metal products.</p>
+                                    <h3>Products Series</h3>
+                                    <p>Epoxy-Polyester Hybrids powder coatings can be manufactured in standard curing type and low temperature curing type. We also provide a huge selections in colors and glosses for this type of powder coatings. We can make high gloss (above 80%), semi-gloss (50 – 80%), matt black (20 – 50%) and flat black (below 20%) according to customer’s needs.</p>
                                 </div>
-                                <div class=" practice-bottom-right-text">
-                                    <h3>Duis aute irure dolor in reprehenderit in voluptate</h3>
-                                    <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.<br/><br/>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur</p>
+                                <div class="fix practice-left-bottom-text">
+                                    <div class="fix practice-bottom-left-img">
+                                        <img src="img/practice-left-bottom.jpg" alt="">
+                                    </div>
+                                    <div class="fix practice-bottom-right-text">
+                                        <h3>Physical Properties</h3>
+                                        <p>
+                                            Specific gravity: 1.4 – 1.7 g/cm&sup3 <br>
+                                            Grain fineness distribution: 100% smaller than 100um (can be adjusted accordingly)
+                                        </p>
+                                        <h3>Curing Condition</h3>
+                                        <p>
+                                            Standard: 180&degC (work piece temperature), 15min <br>
+                                            Low Temperature: 140&degC (work piece temperature), 20min
+                                        </p>
+                                        <h3>Average Coverage</h3>
+                                        <p>
+                                            9-12 m&sup2/kg @ film thickness 60um (2.36mil) <br>
+                                            Note: Number is calculated under 100% usage rate. 
+                                        </p>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class=" right-content-contact-box">
-                                <h1>All people are equal before the law. A good attorney.</h1>
-                                <a href="">Contact us</a>
+                                <div class="fix right-content-contact-box">
+                                    <h4>Test Performance</h3>
+                                    <img src="img/products/e-p.png">
+                                </div>
                             </div>
                         </div>
                         <div class="practice-left-content tab-pane fade" id="employment">
@@ -269,21 +304,37 @@
                                 </div>
                             </div>
                             <div class=" practice-left-middle-text">
-                                <h2>employment Law</h2>
-                                <p> Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.<br/><br/>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur</p>
-                            </div>
-                            <div class=" practice-left-bottom-text">
-                                <div class=" practice-bottom-left-img">
-                                    <img src="img/practice-left-bottom.jpg" alt="">
+                                <div class="fix practice-left-middle-text">
+                                    <h3>General Information</h3>
+                                    <p>Polyurethane series powder coating is mainly made by carboxyl polyester resin. This type of powder coatings provide excellent levelling property, chemical resistance, weathering resistance and outstanding oil resistance. Polyurethane powder coatings are designed for any metal products that require high standard of chemical resistance, oil resistance and weathering resistance functional use on products for cars, motorcycles, oiling machine, and agricultural machine etc.</p>
+                                    <h3>Products Series</h3>
+                                    <p>Polyurethane powder coatings have limitations on color selection but verities on glosses. We can make high gloss (above 80%), semi-gloss (50 – 80%), matt black (20 – 50%) and flat black (below 20%) according to customer’s needs.</p>
                                 </div>
-                                <div class=" practice-bottom-right-text">
-                                    <h3>Duis aute irure dolor in reprehenderit in voluptate</h3>
-                                    <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.<br/><br/>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur</p>
+                                <div class="fix practice-left-bottom-text">
+                                    <div class="fix practice-bottom-left-img">
+                                        <img src="img/practice-left-bottom.jpg" alt="">
+                                    </div>
+                                    <div class="fix practice-bottom-right-text">
+                                        <h3>Physical Properties</h3>
+                                        <p>
+                                            Specific gravity: 1.4 – 1.7 g/cm&sup3 <br>
+                                            Grain fineness distribution: 100% smaller than 100um (can be adjusted accordingly)
+                                        </p>
+                                        <h3>Curing Condition</h3>
+                                        <p>
+                                            Standard: 190&degC (work piece temperature), 15min
+                                        </p>
+                                        <h3>Average Coverage</h3>
+                                        <p>
+                                            9-12 m&sup2/kg @ film thickness 60um (2.36mil) <br>
+                                            Note: Number is calculated under 100% usage rate. 
+                                        </p>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class=" right-content-contact-box">
-                                <h1>All people are equal before the law. A good attorney.</h1>
-                                <a href="">Contact us</a>
+                                <div class="fix right-content-contact-box">
+                                    <h4>Test Performance</h3>
+                                    <img src="img/products/polyurethane.png">
+                                </div>
                             </div>
                         </div>
                         <div class="practice-left-content tab-pane fade" id="family">
@@ -488,9 +539,6 @@
             </div>
         </section>
         <!--End Footer area-->
-        
-        
-   		
 
         <script src="js/vendor/jquery-1.11.3.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
@@ -505,7 +553,28 @@
 
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
+        
+        <!-- custom script to load the correct product -->
+        <script type="text/javascript">
 
+            var getProductName = function() {
+                var productName = location.hash;
+                productName = productName.replace('#', '');
+                if(!productName) productName = 'polyester';
+                console.log(productName);
+                var leftNavTab = document.getElementsByClassName(productName)[0];
+                console.log(leftNavTab);
+                leftNavTab.click(function(event) {
+                    /* Act on the event */
+                });
+            };
+
+            getProductName();
+
+            window.onhashchange = function() {
+                getProductName();
+            }
+        </script>
       
     </body>
 </html>
