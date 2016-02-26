@@ -264,7 +264,7 @@ p {
 
 /*Start Breadcrumb area css */
 .breadcrumb-area {
-  background: rgba(0, 0, 0, 0) url("../img/breadcrumb-bg.jpg") no-repeat;
+  background: rgba(0, 0, 0, 0) url("../img/products/bg.jpg") no-repeat;
   background-position: center;
   background-size:cover;
   position: relative;

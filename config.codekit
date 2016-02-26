@@ -1364,6 +1364,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/public\/img\/products\/bg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 154503,
+		"inputAbbreviatedPath": "\/public\/img\/products\/bg.jpg",
+		"outputAbbreviatedPath": "\/public\/img\/products\/bg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/public\/img\/products\/e-p.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1390,7 +1401,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 426372,
+		"initialSize": 142016,
 		"inputAbbreviatedPath": "\/public\/img\/products\/epoxy2.png",
 		"outputAbbreviatedPath": "\/public\/img\/products\/epoxy2.png",
 		"outputPathIsOutsideProject": 0,
@@ -1437,6 +1448,17 @@
 		"initialSize": 220857,
 		"inputAbbreviatedPath": "\/public\/img\/products\/polyurethane.png",
 		"outputAbbreviatedPath": "\/public\/img\/products\/polyurethane.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/img\/products\/test.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 398037,
+		"inputAbbreviatedPath": "\/public\/img\/products\/test.png",
+		"outputAbbreviatedPath": "\/public\/img\/products\/test.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
