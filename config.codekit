@@ -1342,6 +1342,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/public\/img\/products\/anti.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 172893,
+		"inputAbbreviatedPath": "\/public\/img\/products\/anti.png",
+		"outputAbbreviatedPath": "\/public\/img\/products\/anti.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/img\/products\/art-style.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 158981,
+		"inputAbbreviatedPath": "\/public\/img\/products\/art-style.png",
+		"outputAbbreviatedPath": "\/public\/img\/products\/art-style.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/public\/img\/products\/e-p.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1364,6 +1386,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/public\/img\/products\/epoxy2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 426372,
+		"inputAbbreviatedPath": "\/public\/img\/products\/epoxy2.png",
+		"outputAbbreviatedPath": "\/public\/img\/products\/epoxy2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/img\/products\/high-t.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 144759,
+		"inputAbbreviatedPath": "\/public\/img\/products\/high-t.png",
+		"outputAbbreviatedPath": "\/public\/img\/products\/high-t.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/public\/img\/products\/polyester.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1371,6 +1415,17 @@
 		"initialSize": 247703,
 		"inputAbbreviatedPath": "\/public\/img\/products\/polyester.png",
 		"outputAbbreviatedPath": "\/public\/img\/products\/polyester.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/img\/products\/polyester2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 581126,
+		"inputAbbreviatedPath": "\/public\/img\/products\/polyester2.png",
+		"outputAbbreviatedPath": "\/public\/img\/products\/polyester2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
