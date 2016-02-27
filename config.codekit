@@ -1353,6 +1353,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/public\/img\/products\/anti2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 182081,
+		"inputAbbreviatedPath": "\/public\/img\/products\/anti2.png",
+		"outputAbbreviatedPath": "\/public\/img\/products\/anti2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/public\/img\/products\/art-style.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1360,6 +1371,17 @@
 		"initialSize": 158981,
 		"inputAbbreviatedPath": "\/public\/img\/products\/art-style.png",
 		"outputAbbreviatedPath": "\/public\/img\/products\/art-style.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/img\/products\/art2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 232541,
+		"inputAbbreviatedPath": "\/public\/img\/products\/art2.png",
+		"outputAbbreviatedPath": "\/public\/img\/products\/art2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1415,6 +1437,39 @@
 		"initialSize": 144759,
 		"inputAbbreviatedPath": "\/public\/img\/products\/high-t.png",
 		"outputAbbreviatedPath": "\/public\/img\/products\/high-t.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/img\/products\/high2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 390681,
+		"inputAbbreviatedPath": "\/public\/img\/products\/high2.png",
+		"outputAbbreviatedPath": "\/public\/img\/products\/high2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/img\/products\/p-e2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 242717,
+		"inputAbbreviatedPath": "\/public\/img\/products\/p-e2.png",
+		"outputAbbreviatedPath": "\/public\/img\/products\/p-e2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/img\/products\/poly2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 175352,
+		"inputAbbreviatedPath": "\/public\/img\/products\/poly2.png",
+		"outputAbbreviatedPath": "\/public\/img\/products\/poly2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
