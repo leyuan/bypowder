@@ -2090,6 +2090,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/public\/img\/slider\/home4.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 470815,
+		"inputAbbreviatedPath": "\/public\/img\/slider\/home4.png",
+		"outputAbbreviatedPath": "\/public\/img\/slider\/home4.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/public\/img\/tab-1-content-r8.jpg": {
 		"fileType": 16384,
 		"ignore": 0,

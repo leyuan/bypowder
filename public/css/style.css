@@ -3793,7 +3793,7 @@ header .search-box button {
   right: 0;
   bottom: 0;
   opacity: .65;
-  background: #000;
+  background: rgba(0, 0, 0, 0.4);
   z-index: 9;
 }
 #banner .caption {
