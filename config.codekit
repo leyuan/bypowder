@@ -935,6 +935,50 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/public\/img\/home\/home1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 170570,
+		"inputAbbreviatedPath": "\/public\/img\/home\/home1.jpg",
+		"outputAbbreviatedPath": "\/public\/img\/home\/home1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/img\/home\/home2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 232953,
+		"inputAbbreviatedPath": "\/public\/img\/home\/home2.jpg",
+		"outputAbbreviatedPath": "\/public\/img\/home\/home2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/img\/home\/home3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 89223,
+		"inputAbbreviatedPath": "\/public\/img\/home\/home3.jpg",
+		"outputAbbreviatedPath": "\/public\/img\/home\/home3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/img\/home\/home4.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 229205,
+		"inputAbbreviatedPath": "\/public\/img\/home\/home4.jpg",
+		"outputAbbreviatedPath": "\/public\/img\/home\/home4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/public\/img\/john-michila-photo.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -979,11 +1023,22 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/public\/img\/logo.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 67652,
+		"inputAbbreviatedPath": "\/public\/img\/logo.jpg",
+		"outputAbbreviatedPath": "\/public\/img\/logo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/public\/img\/logo.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 5004,
+		"initialSize": 3154,
 		"inputAbbreviatedPath": "\/public\/img\/logo.png",
 		"outputAbbreviatedPath": "\/public\/img\/logo.png",
 		"outputPathIsOutsideProject": 0,
