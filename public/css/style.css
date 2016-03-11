@@ -1234,12 +1234,12 @@ css:
   font-family: "Open Sans",sans-serif;
 }
 .widget-social-links {
-  margin-top: 27px;
+  margin-bottom: 15px;
 }
 .widget-social-links a i.mysocial_style {
-  border: 1px solid #414242;
+  border: 1px solid white;
   border-radius: 50%;
-  color: #8f8f8f;
+  color: white;
   font-size: 13px;
   height: 30px;
   margin: 0 4px 0 0;
@@ -1262,7 +1262,7 @@ css:
   padding-bottom: 21px;
 }
 .single-footer-widget ul {
-  color: #636363;
+  color: white;
   list-style: outside none none;
   margin: 0;
   padding: 0;
@@ -1319,12 +1319,12 @@ css:
 
 /*Start Footer area css */
 #footer-area {
-  background: #191919 none repeat scroll 0 0;
+  background: #069 none repeat scroll 0 0;
   padding-bottom: 17px;
   padding-top: 27px;
 }
 .copy-right-text p {
-  color: #434546;
+  color: white;
   font-size: 13px;
   text-transform: uppercase;
   font-family: "Open Sans",sans-serif;
@@ -3448,7 +3448,7 @@ header.stricky {
   border-bottom: 1px solid rgba(174,174,174,.3);
 }
 header.stricky-fixed {
-  background: #1F1F1F;
+  background: #069;
   border-bottom: 0;
 }
 header.stricky-fixed .logo {
