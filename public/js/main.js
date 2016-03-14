@@ -103,7 +103,7 @@ function revolutionSliderActiver () {
 		$('.home-v1.banner').revolution({
 			delay:5000,
 			startwidth:1170,
-			startheight:940,
+			startheight:630,
 			startWithSlide:0,
 
 			fullScreenAlignForce:"on",
@@ -174,7 +174,7 @@ function revolutionSliderActiver () {
 			forceFullWidth:"on",
 			fullScreen:"off",
 			fullScreenOffsetContainer:"#banner",
-			fullScreenOffset:"0px",
+			fullScreenOffset:"70px",
 
 			panZoomDisableOnMobile:"off",
 
@@ -255,23 +255,16 @@ jQuery(document).on('ready', function(){
 
 	})(jQuery);
 	
-
-
-
-
-  
-	
-  
   
 });
 
-jQuery(window).on('scroll', function(){
-	(function ($) {
+// jQuery(window).on('scroll', function(){
+// 	(function ($) {
 
-		stickyHeader();
+// 		stickyHeader();
 
-	})(jQuery);
-});
+// 	})(jQuery);
+// });
 jQuery(window).on('load', function(){
 	(function ($) {
 
