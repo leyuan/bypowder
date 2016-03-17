@@ -1248,8 +1248,8 @@ css:
   width: 30px;
 }
 .widget-social-links a i.mysocial_style:hover{
-  border:1px solid #b89b5e;
-  color:#b89b5e;
+/*  border:1px solid #b89b5e;
+  color:#b89b5e;*/
 }
 
 .single-footer-widget h3 {
@@ -3467,7 +3467,7 @@ header.stricky-fixed .mainmenu .nav-holder > ul > li > a {
   /*color: #242424;*/
 }
 header.stricky-fixed .mainmenu .nav-holder > ul > li > a:hover {
-  color: #B89B5E;
+  color: white;
 }
 header.stricky-fixed .mainmenu .nav-holder > ul > li.dropdown > a:after {
  /*color: #242424; */
@@ -3567,7 +3567,7 @@ header .search-box button {
 
 .mainmenu .nav-holder > ul > li.dropdown:hover > a:after,
 .mainmenu .nav-holder > ul > li.dropdown.current > a:after {
-  color: #B89B5E;
+  /*color: #B89B5E;*/
 }
 .home-header .mainmenu .nav-holder > ul > li.dropdown:hover > a:after,
 .home-header .mainmenu .nav-holder > ul > li.dropdown.current > a:after {
@@ -3575,7 +3575,7 @@ header .search-box button {
 }
 .stricky-fixed .mainmenu .nav-holder > ul > li.dropdown:hover > a:after,
 .stricky-fixed .mainmenu .nav-holder > ul > li.dropdown.current > a:after {
-  color: #B89B5E;
+  /*color: #B89B5E;*/
 }
 .mainmenu .nav-holder > ul > li > ul {
   position: absolute;
@@ -3760,8 +3760,11 @@ header .search-box button {
   line-height: 100px;
   transition: all .3s ease;
 }
+.mainmenu .nav-holder > ul > li:hover {
+  background: #005580;
+}
 .mainmenu .nav-holder > ul > li:hover > a {
-  color: #B89B5E;
+  color: white;
 }
 .mainmenu .nav-expander > ul {
   font-size: 0;
@@ -3884,7 +3887,7 @@ header .search-box button {
 #banner .caption.text-center {
   width: 40%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.7);
 }
 #banner .caption-bold-heading h1 {
   /*font-family: 'PT Serif', sans-serif;*/
@@ -3892,7 +3895,7 @@ header .search-box button {
   line-height: 63px;
   /*color: #BF9E58;*/
   /*font-weight: bold;*/
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
 }
 #banner .p-tag p {
   font-family: 'Open Sans', sans-serif;
