@@ -25,7 +25,7 @@ function contactFormValidation () {
 					required: true
 				}
 			},
-			submitHandler: function (form) { 
+			submitHandler: function (form) {
 				// sending value with ajax request
 				$.post($(form).attr('action'), $(form).serialize(), function (response) {
 					$(form).parent('div').append(response);
@@ -43,7 +43,7 @@ function contactFormValidation () {
 function gMap () {
 	if ($('.google-map').length) {
         $('.google-map').each(function () {
-        	// getting options from html 
+        	// getting options from html
         	var mapName = $(this).attr('id');
         	var mapLat = $(this).data('map-lat');
         	var mapLng = $(this).data('map-lng');
@@ -73,7 +73,7 @@ function gMap () {
 	                title: mapTitle
 	            });
         	}
-        });  
+        });
 	};
 }
 
@@ -89,10 +89,10 @@ function stickyHeader () {
 	if ($('.stricky').length) {
 		var strickyScrollPos = $('.stricky').next().offset().top;
 		if($(window).scrollTop() > strickyScrollPos) {
-			$('.stricky').addClass('stricky-fixed'); 
+			$('.stricky').addClass('stricky-fixed');
 		}
 		else if($(this).scrollTop() <= strickyScrollPos) {
-			$('.stricky').removeClass('stricky-fixed'); 
+			$('.stricky').removeClass('stricky-fixed');
 		}
 	};
 }
@@ -114,9 +114,9 @@ function revolutionSliderActiver () {
 
 			onHoverStop:"off",
 
-			thumbWidth:100,
-			thumbHeight:50,
-			thumbAmount:3,
+			// thumbWidth:100,
+			// thumbHeight:50,
+			// thumbAmount:3,
 
 			hideThumbsOnMobile:"off",
 			hideNavDelayOnMobile:1500,
@@ -129,14 +129,14 @@ function revolutionSliderActiver () {
 
 			keyboardNavigation:"on",
 
-			navigationType:"bullet",
-			navigationArrows: "nexttobullets",
-			navigationStyle:"preview4",
+			// navigationType:"bullet",
+			// navigationArrows: "nexttobullets",
+			// navigationStyle:"preview4",
 
-			navigationHAlign:"center",
-			navigationVAlign:"bottom",
-			navigationHOffset:30,
-			navigationVOffset:30,
+			// navigationHAlign:"center",
+			// navigationVAlign:"bottom",
+			// navigationHOffset:30,
+			// navigationVOffset:30,
 
 			soloArrowLeftHalign:"left",
 			soloArrowLeftValign:"center",
@@ -207,7 +207,7 @@ function mobileNavToggler () {
 			return '<i class="fa fa-bars"></i>';
 		});
 		$('.mainmenu .nav-holder ul li.dropdown').children('a').find('.fa').on('click', function () {
-			$(this).parent().parent().children('ul').slideToggle();			
+			$(this).parent().parent().children('ul').slideToggle();
 			return false;
 		});
 
@@ -228,7 +228,7 @@ jQuery(document).on('ready', function(){
 			loop: true,
 			dots: false,
 			margin: 80,
-			nav: true,
+			nav: false,
 			autoWidth: true,
 	        navText: [
 	            '<i class="fa fa-angle-left"></i>',
@@ -254,8 +254,8 @@ jQuery(document).on('ready', function(){
 		  });
 
 	})(jQuery);
-	
-  
+
+
 });
 
 // jQuery(window).on('scroll', function(){

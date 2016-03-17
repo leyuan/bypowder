@@ -1,15 +1,15 @@
 /***********************************
 ******** TABLE OF CONTENT **********
 ************************************
- 1  imported styles 
- 2  Base CSS 
+ 1  imported styles
+ 2  Base CSS
  3  Section Title
- 4  Breadcrumb area css 
+ 4  Breadcrumb area css
  5  index.html page css
- 6  Top area CSS 
+ 6  Top area CSS
  7  Header Area Css
  8  Slider Area Css
- 9  Slider bottom text 
+ 9  Slider bottom text
  10 Welcome area css
  11 Featured Services area css
  12 Case Evaluation area css
@@ -18,61 +18,61 @@
  15 Testimonial Area Css
  16 Latest News Area Css
  17 Branding area css
- 18 Legal problem area css 
- 19 Footer widget area css 
- 20 Footer area css 
+ 18 Legal problem area css
+ 19 Footer widget area css
+ 20 Footer area css
  21 index2.html page css
  22 About.html page css
- 23 mission vision area css 
- 24 Featured service area 2 css 
- 25 Featured services area 3 css 
- 26 Lawyer information area css 
- 27 Attorney-v1.html page css 
- 28 best attorney area css 
+ 23 mission vision area css
+ 24 Featured service area 2 css
+ 25 Featured services area 3 css
+ 26 Lawyer information area css
+ 27 Attorney-v1.html page css
+ 28 best attorney area css
  29 Attorney-v2.html page css
  30 we have best attorney area title
  31 we have best attorney area
  32 we have best attorney area title
- 33 practice-v1.html page css 
+ 33 practice-v1.html page css
  34 practice v1 tabmenu area css
  35 practice v1 Tab all content-area css
  36 practice v1 choose us area css
  37 practice v1 lawyer info area css
- 38 practice-v2.html page css 
- 39 practice-v3.html page css 
+ 38 practice-v2.html page css
+ 39 practice-v3.html page css
  40 practice-v4.html page css
  41 practice-v5.html page css
- 42 blog-left-sidebar.html page css 
+ 42 blog-left-sidebar.html page css
  43 bolg v1 area css
  44 left sidebar css
  45 sidebar widget title
- 46 search box  widget 
- 47 practice  widget items 
- 48 category  widget items 
- 49 text  widget 
- 50 Tag cloude  widget 
- 51 meet attorney  widget 
- 52 blog-right-sidebar.html page css 
- 53 blog-v3.html page css 
- 54 blog-v4.html page css 
- 55 blog-details.html page css 
- 56 blog details top text 
- 57 blog details middle text 
- 58 blog details bottom text 
- 59 John Michaila Info 
- 60 Two Colum Text 
- 61 Socila Link  
- 62 Adminostrator Text  
- 63 Comment Part  
- 64 Comment title 
- 65 Meet Attorneys Comment form 
- 66 contact.html page css 
- 67 single-attorney.html page css 
+ 46 search box  widget
+ 47 practice  widget items
+ 48 category  widget items
+ 49 text  widget
+ 50 Tag cloude  widget
+ 51 meet attorney  widget
+ 52 blog-right-sidebar.html page css
+ 53 blog-v3.html page css
+ 54 blog-v4.html page css
+ 55 blog-details.html page css
+ 56 blog details top text
+ 57 blog details middle text
+ 58 blog details bottom text
+ 59 John Michaila Info
+ 60 Two Colum Text
+ 61 Socila Link
+ 62 Adminostrator Text
+ 63 Comment Part
+ 64 Comment title
+ 65 Meet Attorneys Comment form
+ 66 contact.html page css
+ 67 single-attorney.html page css
  68 skill area css
  69 Leave Comment Area css
- 70 header update styles 
- 71 call to action area styles 
- 72 contact google map styles 
+ 70 header update styles
+ 71 call to action area styles
+ 72 contact google map styles
 
 *********************************************
 *********************************************/
@@ -156,14 +156,14 @@ p {
 }
 
 :-moz-placeholder { /* Firefox 18- */
-   color: #aba9a9;  
+   color: #aba9a9;
 }
 
 ::-moz-placeholder {  /* Firefox 19+ */
-   color: #aba9a9;  
+   color: #aba9a9;
 }
-:-ms-input-placeholder {  
-   color: #aba9a9;  
+:-ms-input-placeholder {
+   color: #aba9a9;
 }
 .anim-3,
 .anim-3-all * {
@@ -283,7 +283,7 @@ p {
   padding-bottom: 93px;
   padding-top: 199px;
 }
-.breadcrumb-text h1 {  
+.breadcrumb-text h1 {
   color: #ffffff;
   font-size: 45px;
   font-style: italic;
@@ -554,7 +554,7 @@ css:
   color: #282c3d;
   font-size: 14px;
   font-weight: 700;
-  text-transform: uppercase; 
+  text-transform: uppercase;
 }
 .our-law a {
   color: #b89b5e;
@@ -597,7 +597,7 @@ css:
   padding-left: 13px;
 }
 .single-featured-text p {
-  font-family: 'Open Sans', sans-serif; 
+  font-family: 'Open Sans', sans-serif;
 }
 .single-featured-text h5:after {
   content: '';
@@ -786,7 +786,7 @@ css:
   font-size: 15px;
   font-weight: 700;
   text-transform: uppercase;
-  font-family: 'Open Sans', sans-serif; 
+  font-family: 'Open Sans', sans-serif;
   transition: all .5s ease;
 }
 .attorney-name p {
@@ -969,7 +969,7 @@ css:
   left:-60px;
   top:120px;
   color:#b89b5e;
-  font-size:40px; 
+  font-size:40px;
 }
 /*End Testimonial Area Css*/
 
@@ -1077,7 +1077,7 @@ css:
   padding-bottom: 10px;
 }
 .latest-news-text .meta li {
-  display: inline-block; 
+  display: inline-block;
 }
 .latest-news-text .meta li a{
   font-size: 15px;
@@ -1249,7 +1249,7 @@ css:
 }
 .widget-social-links a i.mysocial_style:hover{
   border:1px solid #b89b5e;
-  color:#b89b5e;  
+  color:#b89b5e;
 }
 
 .single-footer-widget h3 {
@@ -1412,7 +1412,7 @@ css:
   color: #fff;
 }
 .single-featured-item:hover .featured-text h4 {
-  color: #b89b5e; 
+  color: #b89b5e;
 }
 /*End Featured service area 2 css */
 
@@ -1780,7 +1780,7 @@ color: #fff;
   font-family: "Open Sans",sans-serif;
 }
 .choose-single-item:hover{
-  background:#3b3946; 
+  background:#3b3946;
 }
 .choose-single-item:hover.choose-single-item h4{
   color:#b89b5e;
@@ -1897,9 +1897,9 @@ color: #fff;
   margin-bottom: 20px;
 }
 .practice-v3-single-item:hover{
-  box-shadow: 1px 1px 11px #D1CFCF; 
--webkit-box-shadow: 1px 1px 11px #D1CFCF; 
--moz-box-shadow: 1px 1px 11px #D1CFCF;  
+  box-shadow: 1px 1px 11px #D1CFCF;
+-webkit-box-shadow: 1px 1px 11px #D1CFCF;
+-moz-box-shadow: 1px 1px 11px #D1CFCF;
 }
 .practice-v3-single-item:hover .practice-v3-overlay{
   display:block;
@@ -1927,7 +1927,7 @@ color: #fff;
 .practice-v3-paginat ul.pagination li.active a{
   background: #b89b5e;
   color:#ffffff;
-  border:none;  
+  border:none;
 }
 .practice-v3-paginat ul.pagination li a i {
   width: 14px;
@@ -1967,7 +1967,7 @@ width: 44px;
   margin-bottom: 8px;
 }
 .doenload-items {
-   background: #f0f0f0; 
+   background: #f0f0f0;
 }
 .doenload-items ul {
   list-style: outside none none;
@@ -2172,11 +2172,11 @@ width: 44px;
 }
 .post-resource ul li.tags{
   background: url(../img/tags.png) no-repeat;
-  background-position:left; 
+  background-position:left;
 }
 .post-resource ul li.comments{
   background: url(../img/comments.png) no-repeat;
-  background-position:left;   
+  background-position:left;
 }
 .post-resource ul li span {
   padding-left: 7px;
@@ -2602,7 +2602,7 @@ width: 44px;
   margin: 0;
 }
 .blog-details-image {
-  width: 270px;  
+  width: 270px;
 }
 .blog-detalis-text-middle p {
   padding-top: 0;
@@ -2823,7 +2823,7 @@ width: 44px;
   font-size: 16px;
   color: #959595;
   font-family: "PT Serif",sans-serif;
-  font-style:italic;  
+  font-style:italic;
 }
 .comment-form form textarea.comment {
   border: 1px solid #e8e8e8;
@@ -2937,9 +2937,9 @@ width: 44px;
   height: 189px;
   margin-bottom: 27px;
   padding: 20px 24px;
-  width: 100%; 
+  width: 100%;
   font-family: "PT Serif",sans-serif;
-  font-style:italic;  
+  font-style:italic;
 }
 .contact-form form button[type="submit"] {
   background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
@@ -2995,7 +2995,7 @@ width: 44px;
 
 
 .contact-form form input[type="text"]:focus{
-  border:1px solid #82c7f7; 
+  border:1px solid #82c7f7;
 }
 .contact-form form textarea:focus{
   border:1px solid #82c7f7;
@@ -3428,7 +3428,7 @@ span.progress-bar-tooltip {
 }
 
 .leave-comment-form textarea:focus{
-  border:1px solid #82c7f7; 
+  border:1px solid #82c7f7;
 }
 /*End Leave Comment Area css*/
 
@@ -3455,7 +3455,7 @@ header.stricky-fixed .logo {
   line-height: 70px;
 }
 header.stricky-fixed .logo img {
-  width: 80%;
+  /*width: 80%;*/
   transition: all .3s ease;
 }
 header .logo img {
@@ -3716,7 +3716,7 @@ header .search-box button {
 
 
 .mainmenu .nav-holder > ul li.dropdown > a .fa {
-     display: none; 
+     display: none;
     font-size: 12px;
     border: 1px solid #fff;
     padding: 4px 7px;
@@ -3763,7 +3763,7 @@ header .search-box button {
 .mainmenu .nav-holder > ul > li:hover > a {
   color: #B89B5E;
 }
-.mainmenu .nav-expander > ul {  
+.mainmenu .nav-expander > ul {
   font-size: 0;
   margin: 0;
   padding: 0;
@@ -3793,11 +3793,16 @@ header .search-box button {
   right: 0;
   bottom: 0;
   opacity: .65;
-  background: rgba(0, 0, 0, 0.4);
+  /*background: rgba(0, 0, 0, 0.4);*/
   z-index: 9;
 }
 #banner .caption {
   z-index: 99;
+}
+#banner h1 {
+  margin-top: 200px;
+  font-size: 3em !important;
+  color: white;
 }
 #banner .caption-1 h1{
   color: #f6d877;
@@ -3877,14 +3882,16 @@ header .search-box button {
 }
 
 #banner .caption.text-center {
-  width: 100%;
+  width: 40%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
 }
 #banner .caption-bold-heading h1 {
-  font-family: 'PT Serif', sans-serif;
+  /*font-family: 'PT Serif', sans-serif;*/
   font-size: 65px;
   line-height: 63px;
-  color: #BF9E58;
-  font-weight: bold;
+  /*color: #BF9E58;*/
+  /*font-weight: bold;*/
   text-transform: uppercase;
 }
 #banner .p-tag p {
@@ -3905,7 +3912,7 @@ header .search-box button {
   padding: 9px 16px;
   font-weight: bold;
 }
-#banner .thm-btn a i {  
+#banner .thm-btn a i {
   font-size: 14px;
   color: #fff;
   line-height: 25px;
