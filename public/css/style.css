@@ -3613,7 +3613,7 @@ header .search-box button {
   -o-transition: all 0.5s ease;
 }
 .mainmenu .nav-holder > ul > li > ul > li:hover:before {
-  color: #B89B5E;
+  color: white;
 }
 .mainmenu .nav-holder > ul > li > ul > li > a {
   color: #828282;
@@ -3629,7 +3629,7 @@ header .search-box button {
   transition: all .3s ease;
 }
 .mainmenu .nav-holder > ul > li > ul > li > a:hover {
-  color: #B89B5E;
+  color: white;
 }
 .mainmenu .nav-holder > ul > li > ul > li:hover {
   overflow: visible;
@@ -3710,8 +3710,8 @@ header .search-box button {
   -webkit-transition: all .3s ease;
   transition: all .3s ease;
 }
-.mainmenu .nav-holder > ul > li > ul > li > a:hover {
-  color: #B89B5E;
+.mainmenu .nav-holder > ul > li > ul > li:hover {
+  background: #005580;
 }
 
 
