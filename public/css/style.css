@@ -3448,7 +3448,7 @@ header.stricky {
   border-bottom: 1px solid rgba(174,174,174,.3);
 }
 header.stricky-fixed {
-  background: #069;
+  background: white;
   border-bottom: 0;
 }
 header.stricky-fixed .logo {
@@ -3464,7 +3464,7 @@ header .logo img {
 
 header.stricky-fixed .mainmenu .nav-holder > ul > li > a {
   line-height: 70px;
-  /*color: #242424;*/
+  color: #242424;
 }
 header.stricky-fixed .mainmenu .nav-holder > ul > li > a:hover {
   color: white;
@@ -3534,7 +3534,7 @@ header .search-box button {
 .mainmenu .nav-holder > ul > li.dropdown > a:after {
   content: '\f107';
   font-family: 'FontAwesome';
-  color: #fff;
+  color: #242424;
   margin-left: 10px;
   font-size: 15px;
   font-weight: 600;
@@ -3718,7 +3718,7 @@ header .search-box button {
 .mainmenu .nav-holder > ul li.dropdown > a .fa {
      display: none;
     font-size: 12px;
-    border: 1px solid #fff;
+    border: 1px solid #242424;
     padding: 4px 7px;
     margin-left: 15px;
     border-radius: 5px;
