@@ -3761,7 +3761,7 @@ header .search-box button {
   transition: all .3s ease;
 }
 .mainmenu .nav-holder > ul > li:hover {
-  background: #005580;
+  background: #069;
 }
 .mainmenu .nav-holder > ul > li:hover > a {
   color: white;
