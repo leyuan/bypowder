@@ -1316,7 +1316,6 @@ css:
 }
 /*End Footer widget area css */
 
-
 /*Start Footer area css */
 #footer-area {
   background: #069 none repeat scroll 0 0;
@@ -1363,6 +1362,7 @@ css:
   margin-bottom: 41px;
 }
 #mission-vision-area {
+  min-height: 90vh;
   padding: 100px 0;
 }
 .mission-vision-text {
