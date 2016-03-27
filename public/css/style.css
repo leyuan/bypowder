@@ -4045,3 +4045,7 @@ header .search-box button {
   color: #ff7302 !important;
   border-color:#ff7302 !important;
 }
+
+.white {
+  color: white !important;
+}

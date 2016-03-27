@@ -253,10 +253,12 @@ jQuery(document).on('ready', function(){
 
 	    $(".mainmenu .nav-holder .dropdown ul") .hover(
         function() {
-          $(this).siblings("a").css("color", "white");
+          $(this).siblings("a").addClass("white");
+          // $(this).siblings("a").css("color", "white");
         },
         function(){
-          $(this).siblings("a").css("color", "#242424");
+          $(this).siblings("a").removeClass("white");
+          // $(this).siblings("a").css("color", "#242424");
         }
 	    );
 	})(jQuery);
