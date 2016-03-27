@@ -193,7 +193,6 @@ function CounterNumberChanger () {
 			timer.countTo();
 		})
 	}
-
 }
 
 // Mobile Navigation
@@ -210,7 +209,6 @@ function mobileNavToggler () {
 			$(this).parent().parent().children('ul').slideToggle();
 			return false;
 		});
-
 	}
 }
 
@@ -253,9 +251,15 @@ jQuery(document).on('ready', function(){
 
 		  });
 
+	    $(".mainmenu .nav-holder .dropdown ul") .hover(
+        function() {
+          $(this).siblings("a").css("color", "white");
+        },
+        function(){
+          $(this).siblings("a").css("color", "#242424");
+        }
+	    );
 	})(jQuery);
-
-
 });
 
 // jQuery(window).on('scroll', function(){

@@ -4033,3 +4033,15 @@ header .search-box button {
 #our-attorneys-area.home .attorney-name p {
   color: #fff;
 }
+
+.btn-d {
+  background-color: transparent;
+  color: white !important;
+  border: 2px solid;
+  border-color: white;
+}
+
+.btn-d:hover {
+  color: #ff7302 !important;
+  border-color:#ff7302 !important;
+}
