@@ -4052,3 +4052,20 @@ header .search-box button {
 .white {
   color: white !important;
 }
+
+.flow-table {
+  margin-top: 30px;
+}
+
+.flow-table th {
+  text-align: center;
+}
+
+.flow-table .col-md-4 ul {
+
+}
+
+.text-highlight {
+  font-weight: 700;
+  color: #069;
+}
