@@ -2965,8 +2965,8 @@ width: 44px;
   line-height: 42px;
 }
 .contact-form form button[type="submit"] {
-  background: #1F1F1F none repeat scroll 0 0;
-  color: #ffffff;
+  background: white none repeat scroll 0 0;
+  color: #1F1F1F;
   display: inline-block;
   font-family: "Open Sans",sans-serif;
   font-size: 14px;
@@ -2986,12 +2986,12 @@ width: 44px;
   line-height: 42px;
 }
 .contact-form form button[type="submit"]:hover .fa {
-  color: #1f1f1f;
+  color: white;
 }
 
 .contact-form form button[type="submit"]:hover {
   background: #069;
-  color: #1f1f1f;
+  color: white;
 }
 
 
@@ -4083,4 +4083,8 @@ header .search-box button {
 
 .by-color-grid.blank {
   border: 1px solid;
+}
+
+.grid-name {
+  text-align: center;
 }
