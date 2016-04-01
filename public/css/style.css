@@ -4069,3 +4069,10 @@ header .search-box button {
   font-weight: 700;
   color: #069;
 }
+
+.by-color-grid {
+  margin: 0;
+  display: inline-block;
+  width: 11.8%;
+  height: 120px;
+}
