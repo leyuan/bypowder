@@ -3775,7 +3775,7 @@ header .search-box button {
 }
 .mainmenu .nav-expander > ul > li > button {
   font-size: 18px;
-  color: #FFFFFF;
+  color: #069;
   opacity: .80;
   background-color: transparent;
   border: none;
@@ -3785,7 +3785,7 @@ header .search-box button {
   line-height: 18px;
 }
 .mainmenu .nav-expander .nav-collapser {
-  border: 1px solid #fff;
+  border: 1px solid #069;
   padding: 5px 10px;
   border-radius: 5px;
 }
@@ -3806,8 +3806,12 @@ header .search-box button {
 }
 #banner h1 {
   margin-top: 200px;
-  font-size: 3em !important;
+  font-size: 3.2em !important;
   color: white;
+}
+#banner h1 .bold {
+  font-weight: 700;
+  font-size: inherit !important;
 }
 #banner .caption-1 h1{
   color: #f6d877;
@@ -4087,4 +4091,21 @@ header .search-box button {
 
 .grid-name {
   text-align: center;
+}
+
+.slider-inner-container {
+  float: right;
+  padding-right: 10% !important;
+  width: 90%;
+  text-align: right;
+}
+
+@media (max-width: 800px) {
+  #banner h1 {
+    font-size: 2.8em !important;
+  }
+
+  #banner .caption.text-center {
+    width: 42%;
+  }
 }

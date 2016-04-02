@@ -10,7 +10,7 @@
 
 }
 
-/* Medium screen  */ 
+/* Medium screen  */
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
 .lawyer-count h1 {
   padding-left: 0;
@@ -82,7 +82,7 @@ header.stricky-fixed .logo img {
 /* Tablet Layout: 768px. */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 
-/* Start=========================================================index.html page css================================== */	
+/* Start=========================================================index.html page css================================== */
 .container{
 	padding-left:15px;
 	padding-right:15px;
@@ -121,7 +121,7 @@ header.stricky-fixed .logo img {
   padding-bottom: 50px;
   padding-top: 75px;
 }
-/* End=========================================================index.html page css=================================== */	
+/* End=========================================================index.html page css=================================== */
 
 /*Start legal-problem-area css */
 .get-free-consultation-button {
@@ -193,7 +193,7 @@ header .logo {
 
 /* Mobile Layout: 320px. */
 @media only screen and (max-width: 767px) {
-/* Start=========================================================index.html page css================================== */	
+/* Start=========================================================index.html page css================================== */
 .container{
 	padding-left:15px;
 	padding-right:15px;
@@ -266,7 +266,7 @@ header .logo {
 .single-featured {
   border-bottom: 0px solid #e6e5e5;
 }
-/* End=========================================================index.html page css==================================== */	
+/* End=========================================================index.html page css==================================== */
 
 /* Start=======================================================attorney-v2.html page css===============================*/
 .single-attorney-right-info {
@@ -447,7 +447,7 @@ a.appintment-button {
 
 header.stricky {
   position: static;
-  background: #1F1F1F;
+  /*background: #1F1F1F;*/
 }
 header .logo {
   float: none !important;
@@ -496,7 +496,7 @@ header .logo {
 
 /* Wide Mobile Layout: 480px. */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-/* Start=========================================================index.html page css ==================================*/	
+/* Start=========================================================index.html page css ==================================*/
 .container{
 	padding-left:15px;
 	padding-right:15px;
@@ -521,7 +521,7 @@ header .logo {
   right: 312px;
 }
 /* End=========================================================index.html page css==================================== */
-	
+
 /*Start=========================================================blog-v4.html page css==================================*/
 .fix.blog-post-date.bolg-v4-date {
   left: 43%;
@@ -601,13 +601,13 @@ header .logo {
     opacity: 1;
     visibility: visible;
     transition: none;
-    display: none;  
+    display: none;
   }
   .mainmenu .nav-holder > ul > li > ul > li > ul {
     position: static;
     width: 100%;
     opacity: 1;
-    visibility: visible; 
+    visibility: visible;
     transition: none;
     display: none;
   }
