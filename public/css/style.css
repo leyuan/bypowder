@@ -4108,4 +4108,16 @@ header .search-box button {
   #banner .caption.text-center {
     width: 42%;
   }
+
+  .mission-vision-left-img {
+    display: none;
+  }
+
+  .small-hide {
+    display: none;
+  }
+
+  #practice-v5-area {
+    padding: 0;
+  }
 }
