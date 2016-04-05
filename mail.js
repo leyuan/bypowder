@@ -10,7 +10,7 @@ mail.send = function(name, email, phone, message) {
 
 	var mailOptions = {
 	    from: from,
-	    to: 'lucius.yu@outlook.com, bpowdercoatings@gmail.com',
+	    to: 'bpowdercoatings@gmail.com',
 	    subject: 'New Inquiry from Bypoweder Website',
 	    html: html
 	};
@@ -23,9 +23,8 @@ mail.send = function(name, email, phone, message) {
 	        pass: 'aichenginfo101'
 	    }
 	});
-	// send mail with defined transport object 
+	// send mail with defined transport object
 	transporter.sendMail(mailOptions, function(error, info){
-		console.log('hello');
 	    if(error){
 	        return console.log(error);
 	    }
